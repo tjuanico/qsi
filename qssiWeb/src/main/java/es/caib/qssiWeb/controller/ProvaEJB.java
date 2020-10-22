@@ -33,6 +33,7 @@ public class ProvaEJB extends HttpServlet {
 	public void init() {
 		System.out.print("Entrada a init: ");
 		System.out.print("Prova injecció EJB: " + myController);
+		System.out.print("Prova injecció EJB...: " + ExpedientServ);
 	}
 	
 	@Override
