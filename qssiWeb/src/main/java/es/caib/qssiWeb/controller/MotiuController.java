@@ -98,7 +98,7 @@ public class MotiuController {
 		
 		return this.llista_motius; 
 	}
-	
+	/* BUG 001 
 	public void getMotiuInfo(String motiuId) {
 		
 		LOGGER.info("getMotiuInfo: " + motiuId);
@@ -129,7 +129,7 @@ public class MotiuController {
 			FacesContext.getCurrentInstance().addMessage("growl", new FacesMessage(FacesMessage.SEVERITY_INFO, "Error obtenint el motiu",  ex.toString()));
 		}
 	}
-	
+	*/
 
 	public void updateMotiu() {
 		

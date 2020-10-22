@@ -20,6 +20,8 @@ public class ProvaEJB extends HttpServlet {
 	 Comments: Projecte base amb la finalitat de provar EJB Injection*/
 	private static final long serialVersionUID = 1L;
 	
+	private int num = 0;
+	
 	@EJB
 	private ControladorInterface myController;
 	
